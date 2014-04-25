@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+	margin: 0;
+	padding: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color: #000;
+	background: #fff;
+}
+#placeholder {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	width: 0;
+	height: 0;
+}
+#placeholder:before {
+	content: "Not '.com', just '.link'.";
+	position: absolute;
+	top: -120px;
+	left: -200px;
+	width: 400px;
+	height: 26px;
+	line-height: 26px;
+	font-size: 14px;
+	text-align: center;
+}
+#placeholder:after {
+	content: url(../img/orz.jpg);
+	position: absolute;
+	top: -96px;
+	left: -200px;
+}
