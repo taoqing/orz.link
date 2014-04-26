@@ -22,20 +22,9 @@ body {
 	width: 0;
 	height: 0;
 }
-#placeholder:before {
-	content: "Not '.com', just '.link'.";
-	position: absolute;
-	top: -120px;
-	left: -200px;
-	width: 400px;
-	height: 26px;
-	line-height: 26px;
-	font-size: 14px;
-	text-align: center;
-}
 #placeholder:after {
 	content: url(../img/orz.jpg);
 	position: absolute;
-	top: -96px;
+	top: -107px;
 	left: -200px;
 }
