@@ -8,6 +8,9 @@
 <title>orz.link</title>
 <link href="css/global.css" rel="stylesheet" />
 <script src="js/global.js"></script>
+<script>
+	var ORZ = new orz();
+</script>
 </head>
 
 <body>
