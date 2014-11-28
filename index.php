@@ -22,8 +22,6 @@
 		<p>Password for pick-up: <span class="mark">1gp2</span></p>
 		<p>Password for unzip: <span class="mark">orz.link</span></p>
 	</div>
-	
-	<div>Test Test Test</div>
 </div>
 </body>
 </html>
