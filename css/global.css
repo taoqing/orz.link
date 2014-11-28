@@ -15,16 +15,35 @@ body {
 	color: #000;
 	background: #fff;
 }
-#placeholder {
-	position: fixed;
-	left: 50%;
-	top: 50%;
-	width: 0;
+.wrap:after {
+	display: block;
+	overflow: hidden;
 	height: 0;
+	clear: both;
+	content: '';
 }
-#placeholder:after {
-	content: url(../img/orz.jpg);
-	position: absolute;
-	top: -107px;
-	left: -200px;
+.visual {
+	width: 400px;
+	height: 216px;
+	float: left;
+	background: url(../img/orz.jpg) 0 0 no-repeat;
+	text-indent: -1000em;
+}
+.content {
+	float: left;
+	padding: 12px;
+}
+.content h1 {
+	margin: 30px 0 12px;
+	padding: 0;
+	font-size: 14px;
+	font-weight: 700;
+}
+.content p {
+	margin: 0;
+	padding: 0;
+	line-height: 18px;
+}
+.mark {
+	color: #f00;
 }

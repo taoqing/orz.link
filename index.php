@@ -14,8 +14,14 @@
 </head>
 
 <body>
-<div id="placeholder">
-    <?php echo "\r\n"; ?>
+<div class="wrap">
+	<div class="visual">http://orz.link</div>
+	<div class="content">
+		<h1>TuiGirl Pin-up</h1>
+		<p>Link: <a href="http://pan.baidu.com/s/1i39VQmh" target="_blank">http://pan.baidu.com/s/1i39VQmh</a></p>
+		<p>Password for pick-up: <span class="mark">1gp2</span></p>
+		<p>Password for unzip: <span class="mark">orz.link</span></p>
+	</div>
 </div>
 </body>
 </html>
